@@ -36,6 +36,9 @@
   },
   "homepage": "https://github.com/elJinjin/acquisitions#readme",
   "dependencies": {
+    "@arcjet/inspect": "^1.1.0",
+    "@arcjet/next": "^1.1.0",
+    "@arcjet/node": "^1.1.0",
     "@neondatabase/serverless": "^1.0.2",
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
