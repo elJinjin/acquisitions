@@ -141,3 +141,33 @@
 {"level":"info","message":"User fff@gmail.com created successfully:","service":"acquisitions-api","timestamp":"2026-02-28T08:22:45.973Z"}
 {"level":"info","message":"User registered successfully: fff@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T08:22:45.975Z"}
 {"level":"info","message":"::1 - - [28/Feb/2026:08:22:45 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 110 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:22:45.977Z"}
+{"level":"error","message":"Error creating the user: Error: User already exists","service":"acquisitions-api","timestamp":"2026-02-28T08:38:02.331Z"}
+{"level":"error","message":"Signup error User already exists","service":"acquisitions-api","stack":"Error: User already exists\n    at createUser (file:///C:/Users/Admin/Documents/Devops/acquisitions/acquisitions/src/services/auth.service.js:28:44)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (file:///C:/Users/Admin/Documents/Devops/acquisitions/acquisitions/src/controllers/auth.controller.js:21:22)","timestamp":"2026-02-28T08:38:02.334Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:38:02 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 525 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:38:02.339Z"}
+{"level":"info","message":"User eljinaguilar@gmail.com created successfully:","service":"acquisitions-api","timestamp":"2026-02-28T08:38:23.556Z"}
+{"level":"info","message":"User registered successfully: eljinaguilar@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T08:38:23.560Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:38:23 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 108 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:38:23.563Z"}
+{"level":"error","message":"Error creating the user: Error: User already exists","service":"acquisitions-api","timestamp":"2026-02-28T08:38:27.540Z"}
+{"level":"error","message":"Signup error User already exists","service":"acquisitions-api","stack":"Error: User already exists\n    at createUser (file:///C:/Users/Admin/Documents/Devops/acquisitions/acquisitions/src/services/auth.service.js:28:44)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (file:///C:/Users/Admin/Documents/Devops/acquisitions/acquisitions/src/controllers/auth.controller.js:21:22)","timestamp":"2026-02-28T08:38:27.541Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:38:27 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 525 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:38:27.542Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:38:32 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:38:32.090Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:38:35 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:38:35.760Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:38:45 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:38:45.002Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:38:46 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:38:46.143Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:38:47 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:38:47.251Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:38:52 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:38:52.234Z"}
+{"level":"info","message":"User logged in successfully: eljinaguilar@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T08:40:33.039Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:40:33 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 107 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:40:33.044Z"}
+{"level":"info","message":"User logged in successfully: eljinaguilar@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T08:40:35.557Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:40:35 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 107 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:40:35.559Z"}
+{"level":"info","message":"User logged in successfully: eljinaguilar@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T08:40:42.092Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:40:42 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 107 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:40:42.093Z"}
+{"level":"error","message":"Authentication error: Error: User not found","service":"acquisitions-api","timestamp":"2026-02-28T08:40:50.372Z"}
+{"level":"error","message":"Sign-in error User not found","service":"acquisitions-api","stack":"Error: User not found\n    at authenticateUser (file:///C:/Users/Admin/Documents/Devops/acquisitions/acquisitions/src/services/auth.service.js:51:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signIn (file:///C:/Users/Admin/Documents/Devops/acquisitions/acquisitions/src/controllers/auth.controller.js:56:22)","timestamp":"2026-02-28T08:40:50.373Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:40:50 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 37 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:40:50.374Z"}
+{"level":"info","message":"User logged in successfully: eljinaguilar@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T08:40:57.883Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:40:57 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 107 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:40:57.885Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:41:05 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 43 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:41:05.115Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:41:11 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:41:11.958Z"}
+{"level":"info","message":"User logged out","service":"acquisitions-api","timestamp":"2026-02-28T08:41:19.443Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:08:41:19 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 29 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T08:41:19.444Z"}
