@@ -253,3 +253,69 @@
 {"level":"info","message":"::1 - - [28/Feb/2026:10:12:06 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T10:12:06.531Z"}
 {"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquisitions-api","timestamp":"2026-02-28T10:12:06.700Z","userAgent":"HTTPie"}
 {"level":"info","message":"::1 - - [28/Feb/2026:10:12:06 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T10:12:06.701Z"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api","timestamp":"2026-02-28T12:00:25.147Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:00:25 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-02-28T12:00:25.154Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:00:25 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-02-28T12:00:25.295Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:02:17 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:02:17.744Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:02:30 +0000] \"POST /sign-up HTTP/1.1\" 404 147 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:02:30.423Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:02:41 +0000] \"POST /sign-in HTTP/1.1\" 404 147 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:02:41.464Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:03:18 +0000] \"POST /health HTTP/1.1\" 404 146 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:03:18.067Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:03:56 +0000] \"POST //sign-up HTTP/1.1\" 404 148 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:03:56.899Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:04:10 +0000] \"POST /sign-up HTTP/1.1\" 404 147 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:04:10.891Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:05:30 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:05:30.590Z"}
+{"level":"info","message":"User logged in successfully: conbbtact@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T12:05:39.151Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:05:39 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:05:39.152Z"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api","timestamp":"2026-02-28T12:43:44.947Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:43:44 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-02-28T12:43:44.955Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:43:45 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-02-28T12:43:45.096Z"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api","timestamp":"2026-02-28T12:44:35.311Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:44:35 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-02-28T12:44:35.313Z"}
+{"level":"info","message":"User logged in successfully: conbbtact@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T12:44:45.140Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:44:45 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:44:45.142Z"}
+{"level":"info","message":"User logged in successfully: conbbtact@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T12:44:48.625Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:44:48 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:44:48.626Z"}
+{"level":"info","message":"User logged in successfully: conbbtact@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T12:47:53.771Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:47:53 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:47:53.773Z"}
+{"level":"info","message":"User logged in successfully: conbbtact@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T12:47:57.018Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:47:57 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:47:57.020Z"}
+{"level":"info","message":"User logged in successfully: conbbtact@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T12:47:58.225Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:47:58 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:47:58.227Z"}
+{"level":"info","message":"User logged in successfully: conbbtact@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T12:47:59.027Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:47:59 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:47:59.029Z"}
+{"level":"info","message":"User logged in successfully: conbbtact@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T12:47:59.548Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:47:59 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:47:59.549Z"}
+{"level":"info","message":"User logged in successfully: conbbtact@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T12:48:00.053Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:48:00 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:48:00.053Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"POST","path":"/api/auth/sign-in","service":"acquisitions-api","timestamp":"2026-02-28T12:48:00.211Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:48:00 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:48:00.212Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"POST","path":"/api/auth/sign-in","service":"acquisitions-api","timestamp":"2026-02-28T12:48:00.343Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:48:00 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:48:00.345Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"POST","path":"/api/auth/sign-in","service":"acquisitions-api","timestamp":"2026-02-28T12:48:00.504Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:48:00 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:48:00.506Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"POST","path":"/api/auth/sign-in","service":"acquisitions-api","timestamp":"2026-02-28T12:48:00.677Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:48:00 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:48:00.678Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"POST","path":"/api/auth/sign-in","service":"acquisitions-api","timestamp":"2026-02-28T12:48:00.899Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:48:00 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:48:00.900Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"POST","path":"/api/auth/sign-in","service":"acquisitions-api","timestamp":"2026-02-28T12:48:11.228Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:48:11 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:48:11.229Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"POST","path":"/api/auth/sign-in","service":"acquisitions-api","timestamp":"2026-02-28T12:48:12.280Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:48:12 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:48:12.281Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"POST","path":"/api/auth/sign-in","service":"acquisitions-api","timestamp":"2026-02-28T12:48:15.801Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:48:15 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:48:15.802Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"POST","path":"/api/auth/sign-in","service":"acquisitions-api","timestamp":"2026-02-28T12:48:20.283Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:48:20 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:48:20.284Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"POST","path":"/api/auth/sign-up","service":"acquisitions-api","timestamp":"2026-02-28T12:48:24.780Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:48:24 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:48:24.781Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"POST","path":"/api/auth/sign-in","service":"acquisitions-api","timestamp":"2026-02-28T12:48:27.617Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:48:27 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:48:27.618Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:49:09 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:49:09.893Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:49:49 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:49:49.390Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:50:00 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:50:00.089Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:50:08 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:50:08.275Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:50:25 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 143 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:50:25.429Z"}
+{"level":"info","message":"User logged in successfully: conbbtact@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T12:50:49.567Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:50:49 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:50:49.568Z"}
+{"level":"info","message":"User logged in successfully: conbbtact@gmail.com","service":"acquisitions-api","timestamp":"2026-02-28T12:51:43.101Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:12:51:43 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:51:43.101Z"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api","timestamp":"2026-02-28T13:04:01.843Z"}
+{"level":"info","message":"::1 - - [28/Feb/2026:13:04:01 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-02-28T13:04:01.850Z"}
