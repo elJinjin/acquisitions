@@ -1,11 +1,13 @@
 import express from 'express';
-import { fetchAllUsers } from "#controllers/users.controller.js";   
+import { fetchAllUsers, fetchUserById, updateUser, deleteUser } from "#controllers/users.controller.js";   
+import authMiddleware from '#middleware/auth.middleware.js';
 const router = express.Router();
 
-// Example route for getting all users
+router.use(authMiddleware);
+
 router.get('/', fetchAllUsers);
-router.get('/:id', (req, res) => res.send('GET /users/:id'));
-router.put('/:id', (req, res) => res.send('PUT /users/:id'));
-router.delete('/:id', (req, res) => res.send('DELETE /users/:id'));
+router.get('/:id', fetchUserById);
+router.put('/:id', updateUser);
+router.delete('/:id', deleteUser);
 
 export default router;
