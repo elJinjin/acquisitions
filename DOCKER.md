@@ -37,10 +37,10 @@ cp .env.development .env.development.local   # optional: keep a local copy
 Edit `.env.development` and replace the placeholder values:
 
 ```
-NEON_API_KEY=<your_neon_api_key>
-NEON_PROJECT_ID=<your_neon_project_id>
-PARENT_BRANCH_ID=<your_parent_branch_id>
-ARCJET_KEY=<your_arcjet_key>
+NEON_API_KEY=napi_8gma2gaupue6ddd8bf2c8n05t1cshdlvpl62f9p7gbeh75h5sbwxt8uwz87x9kwv
+NEON_PROJECT_ID=polished-sky-86478228
+PARENT_BRANCH_ID=br-super-glitter-aixnij2d
+ARCJET_KEY=ajkey_01kja6r553er4r6hz1mktcgg1z
 ```
 
 > **Where to find these:**
