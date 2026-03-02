@@ -1,5 +1,5 @@
 import { serial } from 'drizzle-orm/pg-core';
-import {pgTable} from 'drizzle-orm/pg-core';
+import { pgTable } from 'drizzle-orm/pg-core';
 import { varchar, timestamp } from 'drizzle-orm/pg-core';
 
 export const users = pgTable('users', {
