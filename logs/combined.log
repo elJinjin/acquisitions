@@ -325,3 +325,6 @@
 {"level":"info","message":"::1 - - [02/Mar/2026:15:27:09 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-02T15:27:09.407Z"}
 {"level":"info","message":"Getting users...","service":"acquisitions-api","timestamp":"2026-03-02T15:28:01.486Z"}
 {"level":"info","message":"::1 - - [02/Mar/2026:15:28:02 +0000] \"GET /api/users HTTP/1.1\" 200 2363 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-02T15:28:02.781Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [02/Mar/2026:16:36:14 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-03-02T16:36:14.077Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [02/Mar/2026:16:36:14 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-03-02T16:36:14.124Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [02/Mar/2026:16:36:14 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-03-02T16:36:14.166Z"}
