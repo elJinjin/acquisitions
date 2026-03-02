@@ -319,3 +319,9 @@
 {"level":"info","message":"::1 - - [28/Feb/2026:12:51:43 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-02-28T12:51:43.101Z"}
 {"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api","timestamp":"2026-02-28T13:04:01.843Z"}
 {"level":"info","message":"::1 - - [28/Feb/2026:13:04:01 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-02-28T13:04:01.850Z"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api","timestamp":"2026-03-02T15:27:01.817Z"}
+{"level":"info","message":"::1 - - [02/Mar/2026:15:27:01 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-02T15:27:01.825Z"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api","timestamp":"2026-03-02T15:27:09.405Z"}
+{"level":"info","message":"::1 - - [02/Mar/2026:15:27:09 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-02T15:27:09.407Z"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api","timestamp":"2026-03-02T15:28:01.486Z"}
+{"level":"info","message":"::1 - - [02/Mar/2026:15:28:02 +0000] \"GET /api/users HTTP/1.1\" 200 2363 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-02T15:28:02.781Z"}
